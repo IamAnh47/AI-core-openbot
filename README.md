@@ -120,7 +120,7 @@ robot_ai_core/
 
 - Model gốc yolov10n.pt đã nằm trong weights/pretrain/.
 
-- Nếu chưa có, Ultralytics sẽ tự động tải khi bạn gọi detect/fine-tune.
+- Nếu chưa có, Ultralytics sẽ tự động tải gọi detect/fine-tune.
 
 5. **Test inference trên video mẫu**
    ```bash
@@ -182,7 +182,7 @@ python scripts/data_process.py --train_ratio 0.7 --val_ratio 0.2 --test_ratio 0.
 ```
 ```bash
 #Ví dụ: 0 0.542188 0.573958 0.846875 0.843750
-#0: class_id (ở đây là “person” nếu bạn đang dùng 1 class duy nhất và gán “person” = 0).
+#0: class_id 
 #
 #0.542188: x_center – tọa độ trung tâm bbox theo chiều ngang, đã được chuẩn hóa (normalized).
 #
