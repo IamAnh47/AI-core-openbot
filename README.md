@@ -98,7 +98,7 @@ robot_ai_core/
 
 1. **Clone repo**  
    ```bash
-   git clone <repo_url>
+   git clone https://github.com/IamAnh47/AI-core-openbot.git
    cd robot_ai_core
    ```
    
