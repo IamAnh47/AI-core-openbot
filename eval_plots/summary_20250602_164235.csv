@@ -1,0 +1,4 @@
+Split,NumImages,NumBBoxes
+train,37,29
+val,10,8
+test,6,4

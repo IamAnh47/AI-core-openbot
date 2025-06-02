@@ -1,0 +1,6 @@
+opencv-python
+numpy
+ultralytics
+tensorflow
+deep-sort-realtime
+serial
